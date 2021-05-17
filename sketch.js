@@ -39,7 +39,6 @@ function draw() {
   drawSprites();
   textSize(15);
   fill('white')
-  text("Press Up Arrow to feed the dog",250,450);
   text("Food left: "+foodS,250,475);
   if(lastFed>=12){
     text("Last Feed: " + lastFed%12 + "PM",350,30)
