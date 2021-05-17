@@ -7,7 +7,7 @@ function preload(){
 
 function setup() {
   database=firebase.database()
-	createCanvas(1000, 800);
+	createCanvas(displayWidth,displayHeight);
   foodStock=database.ref('Food');
   foodStock.on("value",readStock);
 
